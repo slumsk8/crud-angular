@@ -1,0 +1,11 @@
+<div class="container-dialog" *ngIf="data">
+  <h1 mat-dialog-title style="color: #5e658e; text-transform: uppercase; font-weight: bold;" align="center">{{ data.title }}</h1>
+  <div mat-dialog-content class="error">
+    <h2>{{ data.message }}</h2>
+    <img class="erro-img" src={{data.url}}>
+  </div>
+  <div mat-dialog-actions align="center">
+    <button mat-stroked-button mat-dialog-close>Close</button>
+  </div>
+</div>
+

@@ -1,0 +1,5 @@
+[
+  { "_id": "1", "name": "Angular", "category": "front-end", "uriImg": "/assets/angular.png" },
+  { "_id": "2", "name": "Spring boot", "category": "back-end", "uriImg": "/assets/spring.png" },
+  { "_id": "3", "name": "React", "category": "front-end", "uriImg": "/assets/react.png" }
+]

@@ -1,4 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+// @use "@angular/material" as mat;
+// @include mat.core();
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// $summer-palette: (
+//   50: #edede9,
+//   100: #d6ccc2,
+//   200: #f5ebe0,
+//   300: #e3d5ca,
+//   400: #d5bdaf,
+//   500: #ddbea9,
+//   600: #b7b7a4,
+//   700: #bb9457,
+//   800: #432818,
+//   900: #a98467,
+//   A100: #6c584c,
+//   A200: #d8a48f,
+//   A400: #bb8588,
+//   A700: #d6ce93,
+//   contrast: (
+//     50: #d5bdaf,
+//     100: #d5bdaf,
+//     200: #d5bdaf,
+//     300: #d5bdaf,
+//     400: #000000,
+//     500: #6b705c,
+//     600: #6b705c,
+//     700: #000000,
+//     800: #ffffff,
+//     900: #000000,
+//     A100: #000000,
+//     A200: #000000,
+//     A400: #000000,
+//     A700: #000000,
+//   ),
+// );
+
+// // $my-palette: mat.define-palette(mat.$summer-palette);
+// $my-primary: mat.define-palette($summer-palette, 700);
+// $my-secondary: mat.define-palette($summer-palette, 800);
+// $my-accent: mat.define-palette($summer-palette, 600);
+
+// $my-theme: mat.define-light-theme(
+//   (
+//     color: (
+//       primary: $my-primary,
+//       secondary: $my-secondary,
+//       accent: $my-accent,
+//     ),
+//     // typography: $my-custom-typography-config,
+//       // mat.define-typography-config(),
+//     density: 0,
+//   )
+// );
+// @include mat.all-component-themes($my-theme);
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+body{
+  background: #fff;
+}
+
+mat-toolbar{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+span {
+  text-shadow: 2px 2px #000 !important;
+  font-size: 24px !important;
+}
