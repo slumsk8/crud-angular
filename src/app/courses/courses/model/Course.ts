@@ -2,5 +2,5 @@ export interface Course {
   _id: string;
   name: string;
   category: string;
-  imgUri: string;
+  // imgUri: string;
 }
